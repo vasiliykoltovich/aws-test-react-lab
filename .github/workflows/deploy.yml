@@ -39,7 +39,7 @@ jobs:
           echo ":: set-output name=image::609050058821.dkr.ecr.eu-central-1.amazonaws.com/react-app/deploy:1.1"
 
       - name: Remove old versions
-      - uses: LeiaInc/devops-delete-old-aws-ecr-images@v1
+        uses: LeiaInc/devops-delete-old-aws-ecr-images@v1
         with:
           repo-name: 609050058821.dkr.ecr.eu-central-1.amazonaws.com/react-app
           qtd-images: 2 
