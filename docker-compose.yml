@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "3008:3000"
+      - "3000:3000"
     volumes:
       - .:/test-react-app
       - /test-react-app/node_modules
