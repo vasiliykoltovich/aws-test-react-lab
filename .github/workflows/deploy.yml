@@ -36,4 +36,4 @@ jobs:
         run: |
           docker build -t 609050058821.dkr.ecr.eu-central-1.amazonaws.com/react-app:v1.0 .
           docker push 609050058821.dkr.ecr.eu-central-1.amazonaws.com/react-app:v1.0
-          echo ":: set-output name=image::609050058821.dkr.ecr.eu-central-1.amazonaws.com/react-app/deploy:latest"
+          echo ":: set-output name=image::609050058821.dkr.ecr.eu-central-1.amazonaws.com/react-app/deploy:1.0"
